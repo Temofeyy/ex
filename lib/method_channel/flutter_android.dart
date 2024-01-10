@@ -19,6 +19,7 @@ abstract class FlutterAndroidBridge{
     var intent = const AndroidIntent(
       action: 'com.example.android.ACTION_CUSTOM_BROADCAST',
       arguments: {"pass": 1234},
+      package: "com.watchgas.launcher"
     );
     intent.sendBroadcast();
   }

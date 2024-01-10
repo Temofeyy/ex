@@ -47,8 +47,8 @@ class _LauncherControllerState extends State<LauncherController> {
           mainAxisSize: MainAxisSize.min,
           children: [
             Text(sum.toString()),
-            const FilledButton(onPressed: FlutterAndroidBridge.sendLocalBroadcast, child: Text("send")),
-            const FilledButton(onPressed: FlutterAndroidBridge.requestForMethodCall, child: Text("request")),
+            // const FilledButton(onPressed: FlutterAndroidBridge.sendLocalBroadcast, child: Text("send")),
+            // const FilledButton(onPressed: FlutterAndroidBridge.requestForMethodCall, child: Text("request")),
             const FilledButton(onPressed: FlutterAndroidBridge.sendBroadcast, child: Text("Unlock Launcher")),
           ],
         ),
